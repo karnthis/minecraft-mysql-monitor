@@ -1,0 +1,15 @@
+{
+  "name": "mysqlmonitor",
+  "version": "1.0.0",
+  "description": "App to monitor minecraft mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Erin",
+  "license": "MIT",
+  "dependencies": {
+    "mysql-events": "0.0.11",
+    "node": "^9.3.0"
+  }
+}
