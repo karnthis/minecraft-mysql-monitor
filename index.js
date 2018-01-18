@@ -27,26 +27,12 @@ const watcher = mysqlEventWatcher.add(
       let dim = rowObj.lessercorner.split(";")[0];
       switch (dim) {
         case "world":
-        console.log("Permitted dim");
-        break;
         case "DIM-1":
-        console.log("Permitted dim");
-        break;
         case "DIM1":
-        console.log("Permitted dim");
-        break;
         case "DIM6":
-        console.log("Permitted dim");
-        break;
         case "DIM7":
-        console.log("Permitted dim");
-        break;
         case "DIM-37":
-        console.log("Permitted dim");
-        break;
         case "DIM-42":
-        console.log("Permitted dim");
-        break;
         case "DIM-112":
         console.log("Permitted dim");
         break;
